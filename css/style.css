@@ -1,0 +1,214 @@
+@font-face {
+    src: url(../font/Brasley/Brasley-Medium/Brasley-Medium.ttf) format("truetype");
+    font-family: Barsley;
+}
+
+* {
+    font-family: Barsley;
+}
+
+.navbar .btn {
+    color: #146BF6!important;
+    border: none!important;
+    padding: 1.8rem 4rem!important;
+    border-radius: 0!important;
+    font-weight: bold!important;
+    letter-spacing: 0.1rem;
+
+}
+
+.join {
+    transition: 0.9s all 0.3s;
+
+}
+
+.join:hover {
+    background: whitesmoke!important;
+    transition: 0.9s all 0.3s;
+
+}
+
+.navbar {
+    padding: 2rem!important;
+}
+
+nav ul a {
+    color: grey!important;
+    font-weight: 550!important;
+    letter-spacing: 0.1rem;
+    transition: .5s all 0.5s;
+}
+
+nav ul a:hover {
+    color: white!important;
+    background: #146BF6!important;
+    border-radius: 1rem;
+    transition: 0.9s all 0.3s;
+}
+
+.navbar-brand {
+    color: black!important;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.card {
+    animation-name: angry-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+  }
+  @keyframes angry-animation {
+    0%{
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    60%{
+      opacity: 1;
+      -webkit-transform: scale3d(1,1,1);
+      transform: scale3d(1,1,1);
+    }
+  }
+
+.main .btn {
+    color: #fff!important;
+    border: none!important;
+    padding: 1.8rem 4rem;
+    border-radius: 0!important;
+    letter-spacing: 0.1rem;
+    background-color: #146BF6!important;
+    transition: 0.5s ease;
+
+}
+
+.main .btn:hover {
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid #146BF6!important;
+}
+
+.heading h1 {
+    font-weight: 590;
+    font-size: 4rem;
+}
+
+.heading p {
+    font-weight: bold;
+    font-weight: 5rem!important;
+    letter-spacing: 0.2rem!important;
+}
+
+.join-text {
+    font-weight: bold;
+    color: #146BF6;
+    letter-spacing: 0.1rem;
+}
+
+.main2 .posttask {
+    color: #fff!important;
+    border: none!important;
+    padding: 1.8rem 4rem!important;
+    border-radius: 0!important;
+    letter-spacing: 0.1rem;
+    background-color: #146BF6!important;
+    transition: 0.5s ease;
+
+}
+
+.main2 .posttask:hover {
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid #146BF6!important;
+}
+
+.main2 {
+    background: whitesmoke;
+}
+
+.main2 .respondnow {
+    color: #fff!important;
+    border: none!important;
+    border-radius: 0!important;
+    letter-spacing: 0.1rem;
+    background-color: #146BF6!important;
+    transition: 0.5s ease;
+    font-size: 0.8rem;
+
+}
+
+.main2 .respondnow:hover {
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid #146BF6!important;
+}
+
+.card {
+    border-radius: 0!important;
+    transition: 0.5s ease;
+
+}
+
+.card:hover {
+    border: 1px solid #146BF6!important;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.main2 .lead {
+    font-size: 1rem;
+}
+
+.navbar-collapse {
+    transition: 0.5s ease;
+}
+
+@media (max-width: 768px) { 
+    .card-deck {
+        padding: 1rem!important;
+    }
+    
+    .main h1 {
+        font-size: 3.6rem;
+        text-align: center;
+    }
+
+    .main p {
+        text-align: center;
+    }
+
+    .main .cent {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        background: whitesmoke;
+        text-align: center;
+        margin-top: 1rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        transition: 0.5s ease;
+    }
+
+    .join {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+ }
+
+ .footer {
+     background: whitesmoke!important;
+     transition: 0.5s ease;
+
+ }
+
+ .footer .btn {
+     background: white!important;
+     transition: 0.5s ease;
+ }
+
+ .footer .btn:hover {
+     border: 1px solid #146BF6;
+     background: white;
+ }
